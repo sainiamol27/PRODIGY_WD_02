@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.size button {
+    width: 500px;
+}
+
+body {
+    background-image: url('https://img.freepik.com/free-vector/flat-geometric-background_23-2148957201.jpg?t=st=1726430126~exp=1726430726~hmac=b7d14c910b29e6f6e8ae3196c87d67b65a073da5082a3c8876d4e1736db9fb69');
+
+}
+
+.con {
+    background-color: orange;
+    width: 40%;
+    min-width: 500px;
+    justify-content: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 0;
+    border-radius: 2px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.338);
+}
+
+.td {
+    font-weight: bolder;
+    position: relative;
+    width: 92%;
+    height: 200px;
+    background: #b2d5eb;
+    left: 4%;
+    font-family: 'Roboto mono';
+    color: #0d3369;
+    font-size: 50px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 2px;
+    box-shadow: 0 0 20px rgba(65, 5, 145, 0.25);
+}
+
+.lap1 {
+    font-weight: bolder;
+    position: relative;
+    width: 92%;
+    height: 100px;
+    background: #b2d5eb;
+    left: 4%;
+    font-family: 'Roboto mono';
+    color: #0d3369;
+    font-size: 50px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 2px;
+    box-shadow: 0 0 20px rgba(65, 5, 145, 0.25);
+}
+
+.buttons {
+    width: 90%;
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button {
+    width: 130px;
+    height: 100px;
+    background-color: #b2d5eb;
+    color: #0d3369;
+    border: 0px;
+    font-family: 'sans-serif';
+    font-size: 27px;
+    border-radius: 80px;
+    cursor: pointer;
+    outline: none;
+}
+
+.buttons button:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
